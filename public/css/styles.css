@@ -1,0 +1,84 @@
+.x{
+    min-width: 50px;
+}
+
+body{
+    font-family: 'Mali', cursive;
+    background-color: brown;
+}
+.navbar{
+    opacity:0.95;
+}
+.nav_pic{
+    width: 45px;
+    height: 60px;
+    margin-left: 150px;
+}
+.nav_btn{
+    margin-right: 100px;
+}
+#prvi{
+    margin-top: 86px;
+}
+#slika{
+    min-height: 800px;
+    background-image:url('../images/1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.slika{
+    min-height: 800px;
+    background-image:url('../images/1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    margin-top: 86px;
+}
+
+.sl_text{
+
+    opacity: 0.8;
+
+}
+
+#istaknuto{
+    min-height: 200px;
+    background-color: aqua
+}
+
+.usl{
+    min-height: 100px;
+    background-color: olivedrab;
+    border: 1px solid black;
+}
+
+#donji{
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 580px) {
+    #istaknuto{
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .nav_pic{
+
+        margin-left: 50px;
+    }
+    .nav_btn{
+        margin-right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 250px) {
+    .nav_pic{
+
+        margin-left: 0px;
+    }
+    .nav_btn{
+        margin-right: 0px;
+    }
+
+}
